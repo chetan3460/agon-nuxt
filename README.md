@@ -1,1 +1,1 @@
-# agon-nuxt
+# template-nuxt-with-strapi

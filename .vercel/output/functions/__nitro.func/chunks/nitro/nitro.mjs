@@ -4602,7 +4602,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "82ae3207-b575-4f43-92c4-9b50aa6e3bfa",
+    "buildId": "129b4f6b-a091-4005-91df-b86d302838bd",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4656,7 +4656,7 @@ const _inlineRuntimeConfig = {
     }
   },
   "public": {
-    "strapiBaseUrl": "https://agon-cms-strapi.onrender.com",
+    "strapiBaseUrl": "http://localhost:1337",
     "seo-utils": {
       "canonicalQueryWhitelist": [
         "page",
@@ -4745,6 +4745,12 @@ const _inlineRuntimeConfig = {
         "_context": "nuxt-site-config:config",
         "url": "http://localhost:3000/",
         "name": "My Awesome Website"
+      },
+      {
+        "_context": "buildEnv",
+        "_priority": -1,
+        "url": "https://agon-cms-strapi.onrender.com",
+        "name": "Agon"
       }
     ],
     "version": "3.0.6",
@@ -5415,11 +5421,11 @@ async function dispose(driver) {
 const _assets = {
   ["nuxt-og-image:fonts:Inter-400.ttf.base64"]: {
     import: () => import('../raw/Inter-400.ttf.mjs').then(r => r.default || r),
-    meta: {"type":"text/plain; charset=utf-8","etag":"\"652cc-qEeSD1DXCSV8gPP2rnBA6ePGdZ4\"","mtime":"2025-01-28T12:15:12.476Z"}
+    meta: {"type":"text/plain; charset=utf-8","etag":"\"652cc-qEeSD1DXCSV8gPP2rnBA6ePGdZ4\"","mtime":"2025-01-30T05:06:40.031Z"}
   },
   ["nuxt-og-image:fonts:Inter-700.ttf.base64"]: {
     import: () => import('../raw/Inter-700.ttf.mjs').then(r => r.default || r),
-    meta: {"type":"text/plain; charset=utf-8","etag":"\"674f0-FZReUXHhPTnY0HmYVn2iPpKm9ds\"","mtime":"2025-01-28T12:15:12.475Z"}
+    meta: {"type":"text/plain; charset=utf-8","etag":"\"674f0-FZReUXHhPTnY0HmYVn2iPpKm9ds\"","mtime":"2025-01-30T05:06:40.032Z"}
   }
 };
 

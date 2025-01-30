@@ -109,9 +109,9 @@ export default defineNuxtConfig({
 //   name: 'fade',
 //   mode: 'out-in',
 // },
-// nitro: {
-//   preset: 'vercel'
-// },
+nitro: {
+  preset: 'vercel'
+},
 publicRuntimeConfig: {
   fetchWithSSR: true,
 },

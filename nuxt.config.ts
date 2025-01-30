@@ -110,7 +110,7 @@ export default defineNuxtConfig({
 //   mode: 'out-in',
 // },
 nitro: {
-  preset: 'vercel'
+  // preset: 'server'
 },
 publicRuntimeConfig: {
   fetchWithSSR: true,

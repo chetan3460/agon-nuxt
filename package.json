@@ -3,11 +3,13 @@
     "private": true,
     "type": "module",
     "scripts": {
+        "start": "nuxt start",
         "build": "nuxt build",
-        "dev": "nuxt dev",
-        "generate": "nuxt generate",
-        "preview": "nuxt preview",
-        "postinstall": "nuxt prepare"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+
     },
     "devDependencies": {
         "@nuxt/devtools": "latest",
